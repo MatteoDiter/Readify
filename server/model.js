@@ -1,7 +1,8 @@
 const { Pool } = require('pg');
 
-const PGI_URL =
-  'postgres://pgynxjrw:IDgXOQHBjrWC5MPuv5jY2IedwcVmildD@ziggy.db.elephantsql.com/pgynxjrw';
+// create a new databse
+// const PGI_URL =
+//   'postgres://pgynxjrw:IDgXOQHBjrWC5MPuv5jY2IedwcVmildD@ziggy.db.elephantsql.com/pgynxjrw';
 //Password: IDgXOQHBjrWC5MPuv5jY2IedwcVmildD
 
 const pool = new Pool({
